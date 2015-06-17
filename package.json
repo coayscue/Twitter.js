@@ -1,0 +1,18 @@
+{
+  "name": "twitter-js",
+  "version": "1.0.0",
+  "description": "Twitter Remake",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "develop": "nodemon app.js",
+    "serve": "node app.js",
+    "start": "nodemon app.js"
+  },
+  "author": "Christian Ayscue",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.12.4",
+    "morgan": "^1.6.0"
+  }
+}
