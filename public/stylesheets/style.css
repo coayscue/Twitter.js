@@ -58,15 +58,20 @@ code {
   font-weight: bold;
 }
 
-li{
-  list-style: square url("http://beautifuldecay.com/wp-content/uploads/2014/07/01.gif");
+ul.no-bullet{
+ list-style-type: none;
+ padding:0;
+ margin: 0;
 }
-/*li:before{
-  content: '';
-  display: inline-block;
 
-  background-image: url("http://beautifuldecay.com/wp-content/uploads/2014/07/01.gif");
-}*/
+li.pic{
+ background-image: url("http://beautifuldecay.com/wp-content/uploads/2014/07/01.gif") ;
+ height: 100px;
+ background-size: 70px;
+ background-repeat: no-repeat;
+ padding-left:90px;
+ padding-top: 3px; 
+}
 
 
 
